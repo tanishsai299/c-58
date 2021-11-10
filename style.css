@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+
+.tbl {
+    border-radius: 50%;
+
+}
+
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#ff9c63 0%, #e6aca8 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+
+}
+
+
+#lbt {
+    font-size: 50px;
+   
+    font-weight: 300;
+    font-family: 'Are You Serious', cursive;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 300;
+
+}
+
+#bio {
+    padding: 50px;
+    font-family: cursive;
+
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+
+
+}
+
+.Wc {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+
+}
+
+.links {
+
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 30px;
+
+
+
+}
+
+.links:hover {
+
+    background-color: azure;
+
+}
